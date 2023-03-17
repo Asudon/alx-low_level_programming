@@ -2,22 +2,16 @@
 
 
 /**
- * main - Entry point
+ * main - main function
  *
- * Return: Always 0 (Success)
+ * Return: 0 success
  */
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
-	float e;
-
-	printf("Size of char: %lu byte(s)\n", sizeof(d));
-	printf("Size of an int: %lu byte(s)\n", sizeof(a));
-	printf("Size of a long int: %lu byte(s)\n", sizeof(b));
-	printf("Size of a long long int: %lu byte(s)\n", sizeof(c));
-	printf("Size of a float: %lu byte(s)\n", sizeof(e));
+	printf("Size of char: %lu byte(s)", sizeof(char));
+	printf("Size of an int: %lu byte(s)", sizeof(int));
+	printf("Size of a long int: %lu byte(s)", sizeof(long int));
+	printf("Size of a long long int: %lu byte(s)", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)", sizeof(float));
 	return (0);
 }
